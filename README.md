@@ -1,5 +1,7 @@
 # AppGroupedClips
 
+**🌐 Website:** [turhe123.github.io/app-grouped-clips](https://turhe123.github.io/app-grouped-clips/)
+
 A clipboard history that groups what you copied by the app it came from, with custom labels for favorites.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -26,7 +28,21 @@ AppGroupedClips is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-favorites.png" alt="AppGroupedClips popup with labelled favorites and app icon sidebar" width="720"></p>
+
+<p align="center"><em>The menu-bar popup groups clips by source app on the left, with labelled favorites pinned on top and numbered for one-key pasting.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-timeline.png" alt="AppGroupedClips popup showing the clip timeline" width="560"></p>
+
+<p align="center"><em>The All view shows a merged timeline of recent text and link clips, each tagged with the icon of the app it was copied from.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-search.png" alt="AppGroupedClips popup with a search for swift" width="560"></p>
+
+<p align="center"><em>Typing filters clips and favorite labels instantly.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-settings.png" alt="AppGroupedClips Settings window" width="560"></p>
+
+<p align="center"><em>Settings cover per-app history limits, image capture, the global shortcut, ignored apps and launch at login.</em></p>
 
 ## Install
 

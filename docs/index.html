@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AppGroupedClips — Clipboard history grouped by app</title>
+  <meta name="description" content="Free, open-source macOS clipboard history that groups copies by source app, with labelled favorites and quick paste. Native, offline, no accounts. macOS 14+.">
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AppGroupedClips — Clipboard history grouped by app">
+  <meta property="og:description" content="Free, open-source macOS clipboard history that groups copies by source app, with labelled favorites and quick paste. Native, offline, no accounts. macOS 14+.">
+  <meta property="og:url" content="https://turhe123.github.io/app-grouped-clips/">
+  <meta property="og:image" content="https://turhe123.github.io/app-grouped-clips/screenshots/01-favorites.png">
+  <meta property="og:site_name" content="AppGroupedClips">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AppGroupedClips — Clipboard history grouped by app">
+  <meta name="twitter:description" content="Free, open-source macOS clipboard history that groups copies by source app, with labelled favorites and quick paste. Native, offline, no accounts. macOS 14+.">
+  <meta name="twitter:image" content="https://turhe123.github.io/app-grouped-clips/screenshots/01-favorites.png">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>window.APP_CONFIG = { RELEASE_API_URL: "https://api.github.com/repos/turhe123/app-grouped-clips/releases/latest", ASSET_NAME: "AppGroupedClips-macOS.zip" };</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--violet"></div>
+    <div class="bg-glow bg-glow--cyan"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top" aria-label="AppGroupedClips home">
+        <span class="logo-mark" aria-hidden="true"><img src="assets/icon.png" width="26" height="26" alt="" style="border-radius:7px"></span>
+        <span class="logo-text">AppGroupedClips</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="https://github.com/turhe123/app-grouped-clips" target="_blank" rel="noopener">GitHub</a></li>
+        <li class="nav-cta"><a class="btn btn--small btn--primary" href="https://github.com/turhe123/app-grouped-clips/releases/latest/download/AppGroupedClips-macOS.zip" data-download>Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top">
+      <div class="hero-copy">
+        <img class="app-icon-hero reveal" src="assets/icon.png" alt="AppGroupedClips icon" width="84" height="84">
+        <p class="eyebrow reveal"><span class="eyebrow-dot" aria-hidden="true"></span>Open source · macOS 14+ · Universal binary · Clipboard</p>
+        <h1 class="hero-title reveal">Your clipboard,<br><span class="grad-text">sorted by app.</span></h1>
+        <p class="hero-sub reveal">AppGroupedClips keeps your copy history organized by the app each clip came from. Press ⇧⌘C from anywhere, pick a clip, and press Return to paste it into the app you were using.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn--primary btn--large" href="https://github.com/turhe123/app-grouped-clips/releases/latest/download/AppGroupedClips-macOS.zip" data-download>
+            <svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18"><path fill="currentColor" d="M10 2a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42L9 11.6V3a1 1 0 0 1 1-1Zm-7 13a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+            Download for macOS
+          </a>
+          <a class="btn btn--ghost btn--large" href="https://github.com/turhe123/app-grouped-clips" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+        <p class="hero-hint reveal">Free &amp; MIT licensed · Apple Silicon &amp; Intel · <span data-version>Latest release</span></p>
+      </div>
+      <div class="hero-shot reveal">
+        <img src="screenshots/01-favorites.png" alt="AppGroupedClips popup with labelled favorites and app icon sidebar" loading="eager">
+      </div>
+    </section>
+
+    <section class="section container" id="features">
+      <div class="section-head reveal">
+        <p class="section-kicker">Features</p>
+        <h2 class="section-title">Find any clip, fast.</h2>
+        <p class="section-sub">Every copy is filed under the app it came from, so history stays easy to scan.</p>
+      </div>
+      <div class="features">
+        <article class="card reveal">
+          <div class="card-icon card-icon--violet"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="6" y="5" width="12" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="9" y="3" width="6" height="4" rx="1" fill="currentColor"/><path d="M9 12h6M9 16h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Grouped by source app</h3>
+          <p>Each clip is saved with the name and icon of the frontmost app. Browse by app in the sidebar, or choose All for a merged timeline.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--cyan"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 6h14M12 6v13M8 19h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Labelled favorites</h3>
+          <p>Star a clip or use Rename Label to name it, such as Billing address. Labelled clips are kept as favorites and are not removed by history limits.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--grad"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 10h.01M11 10h.01M15 10h.01M7 14h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Paste with one key</h3>
+          <p>Return pastes the selected clip into the previous app. Number keys 1 to 9 paste your first nine favorites. Typing starts a search.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--violet"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m3 16 5-5 4 4 3-3 6 6"/><circle cx="16" cy="9" r="1.6" fill="currentColor"/></svg></div>
+          <h3>Text, links, images, files</h3>
+          <p>Records plain text, links, images and copied files. Search matches both clip text and favorite labels.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--cyan"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Privacy-minded by design</h3>
+          <p>Clips marked concealed or transient, such as those from password managers, are skipped. You can also choose Never Record From an app.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--grad"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h10m4 0h2M4 12h3m4 0h9M4 17h12m4 0h0"/><circle cx="16" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
+          <h3>Settings that matter</h3>
+          <p>Set history per app from 20 to 500, turn image capture off, manage ignored apps, record your own hotkey and enable launch at login.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="screenshots">
+      <div class="section-head reveal">
+        <p class="section-kicker">Screenshots</p>
+        <h2 class="section-title">See it in action.</h2>
+      </div>
+      <div class="gallery reveal">
+        <figure><img src="screenshots/01-favorites.png" alt="AppGroupedClips popup with labelled favorites and app icon sidebar" loading="lazy"><figcaption>The menu-bar popup groups clips by source app on the left, with labelled favorites pinned on top and numbered for one-key pasting.</figcaption></figure>
+        <figure><img src="screenshots/02-timeline.png" alt="AppGroupedClips popup showing the clip timeline" loading="lazy"><figcaption>The All view shows a merged timeline of recent text and link clips, each tagged with the icon of the app it was copied from.</figcaption></figure>
+        <figure><img src="screenshots/03-search.png" alt="AppGroupedClips popup with a search for swift" loading="lazy"><figcaption>Typing filters clips and favorite labels instantly.</figcaption></figure>
+        <figure><img src="screenshots/04-settings.png" alt="AppGroupedClips Settings window" loading="lazy"><figcaption>Settings cover per-app history limits, image capture, the global shortcut, ignored apps and launch at login.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section container section--narrow" id="install">
+      <div class="section-head reveal">
+        <p class="section-kicker">Install</p>
+        <h2 class="section-title">Up and running in a minute.</h2>
+        <p class="section-sub">AppGroupedClips is open source and not notarized with a paid Apple Developer ID, so macOS needs one extra step the first time.</p>
+      </div>
+      <ol class="steps reveal">
+        <li>Download <strong>AppGroupedClips-macOS.zip</strong> and unzip it.</li>
+        <li>Move <strong>AppGroupedClips.app</strong> to your <strong>Applications</strong> folder.</li>
+        <li>Clear the quarantine flag once, then right-click the app and choose <strong>Open</strong>:<pre>xattr -cr /Applications/AppGroupedClips.app</pre></li>
+        <li>To paste with Return or the number keys, grant Accessibility access in System Settings Privacy Security Accessibility when macOS asks the first time you paste.</li>
+      </ol>
+    </section>
+
+    <section class="section container" id="download">
+      <div class="download-card reveal">
+        <div class="download-glow" aria-hidden="true"></div>
+        <div class="download-copy">
+          <p class="section-kicker">Download</p>
+          <h2 class="section-title">Get AppGroupedClips for macOS</h2>
+          <p class="section-sub">Free, forever. Built for macOS 14 Sonoma or newer, Apple Silicon and Intel.</p>
+          <div class="download-actions">
+            <a class="btn btn--primary btn--large" href="https://github.com/turhe123/app-grouped-clips/releases/latest/download/AppGroupedClips-macOS.zip" data-download>
+              <svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18"><path fill="currentColor" d="M10 2a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42L9 11.6V3a1 1 0 0 1 1-1Zm-7 13a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+              Download for macOS
+            </a>
+            <a class="btn btn--ghost btn--large" href="https://github.com/turhe123/app-grouped-clips/releases/latest" target="_blank" rel="noopener">All releases</a>
+          </div>
+          <p class="release-meta" data-release-meta>AppGroupedClips-macOS.zip · GitHub Releases</p>
+          <p class="download-hint">Not notarized: on first launch right-click <strong>AppGroupedClips.app → Open</strong>.</p>
+        </div>
+        <div class="download-aside">
+          <div class="app-tile" aria-hidden="true"><img src="assets/icon.png" width="72" height="72" alt="" style="border-radius:18px"></div>
+          <ul class="download-facts">
+            <li>macOS 14 Sonoma+</li>
+            <li>Universal (Apple Silicon + Intel)</li>
+            <li>MIT licensed · open source</li>
+            <li>No ads, no accounts, no telemetry</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container section--narrow" id="faq">
+      <div class="section-head reveal">
+        <p class="section-kicker">FAQ</p>
+        <h2 class="section-title">Questions, answered.</h2>
+      </div>
+      <div class="faq reveal">
+        <details class="faq-item" open><summary>Is AppGroupedClips really free and open source?</summary><div class="faq-body"><p>Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or paid tiers. If you find it useful, there is an optional Support button in the app.</p></div></details>
+        <details class="faq-item"><summary>What permissions does it need?</summary><div class="faq-body"><p>Only Accessibility, and only so it can send a Command-V key event to paste into the previous app. Without it, the clip is still copied to your clipboard and a notice explains how to enable the permission.</p></div></details>
+        <details class="faq-item"><summary>Where is my data stored?</summary><div class="faq-body"><p>Locally on your Mac. History is a JSON file in ~/Library/Application Support/AppGroupedClips, with images saved as separate files. Nothing is sent anywhere, and the app has no analytics or network code.</p></div></details>
+        <details class="faq-item"><summary>Why isn&#x27;t the app notarized?</summary><div class="faq-body"><p>Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode.</p></div></details>
+      </div>
+    </section>
+
+    <section class="section container section--narrow" id="support">
+      <div class="support-card reveal">
+        <p class="section-kicker">Support ❤️</p>
+        <h2 class="section-title">Built by one person, given away for free.</h2>
+        <p>AppGroupedClips is a free, open-source alternative to paid utilities. If it earns a spot on your Mac, a coffee keeps the updates coming.</p>
+        <a class="btn btn--kofi btn--large" href="https://ko-fi.com/leodavidai" target="_blank" rel="noopener">☕ Support Or on Ko-fi</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 Or Davidai Bachar · MIT License</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/turhe123/app-grouped-clips" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://ko-fi.com/leodavidai" target="_blank" rel="noopener">Ko-fi</a></li>
+        <li><a href="https://github.com/turhe123/app-grouped-clips/issues" target="_blank" rel="noopener">Report a bug</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

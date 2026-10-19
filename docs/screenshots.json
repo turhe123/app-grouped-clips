@@ -1,0 +1,6 @@
+[
+  {"file":"01-favorites.png","caption":"The menu-bar popup groups clips by source app on the left, with labelled favorites pinned on top and numbered for one-key pasting.","alt":"AppGroupedClips popup with labelled favorites and app icon sidebar"},
+  {"file":"02-timeline.png","caption":"The All view shows a merged timeline of recent text and link clips, each tagged with the icon of the app it was copied from.","alt":"AppGroupedClips popup showing the clip timeline"},
+  {"file":"03-search.png","caption":"Typing filters clips and favorite labels instantly.","alt":"AppGroupedClips popup with a search for swift"},
+  {"file":"04-settings.png","caption":"Settings cover per-app history limits, image capture, the global shortcut, ignored apps and launch at login.","alt":"AppGroupedClips Settings window"}
+]

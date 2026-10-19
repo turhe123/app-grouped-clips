@@ -1,0 +1,24 @@
+{
+  "seo_title": "Clipboard history grouped by app",
+  "seo_description": "Free, open-source macOS clipboard history that groups copies by source app, with labelled favorites and quick paste. Native, offline, no accounts. macOS 14+.",
+  "hero_title_line1": "Your clipboard,",
+  "hero_title_accent": "sorted by app.",
+  "hero_sub": "AppGroupedClips keeps your copy history organized by the app each clip came from. Press ⇧⌘C from anywhere, pick a clip, and press Return to paste it into the app you were using.",
+  "features_title": "Find any clip, fast.",
+  "features_sub": "Every copy is filed under the app it came from, so history stays easy to scan.",
+  "features": [
+    {"icon": "clipboard", "title": "Grouped by source app", "desc": "Each clip is saved with the name and icon of the frontmost app. Browse by app in the sidebar, or choose All for a merged timeline."},
+    {"icon": "text", "title": "Labelled favorites", "desc": "Star a clip or use Rename Label to name it, such as Billing address. Labelled clips are kept as favorites and are not removed by history limits."},
+    {"icon": "keyboard", "title": "Paste with one key", "desc": "Return pastes the selected clip into the previous app. Number keys 1 to 9 paste your first nine favorites. Typing starts a search."},
+    {"icon": "image", "title": "Text, links, images, files", "desc": "Records plain text, links, images and copied files. Search matches both clip text and favorite labels."},
+    {"icon": "shield", "title": "Privacy-minded by design", "desc": "Clips marked concealed or transient, such as those from password managers, are skipped. You can also choose Never Record From an app."},
+    {"icon": "sliders", "title": "Settings that matter", "desc": "Set history per app from 20 to 500, turn image capture off, manage ignored apps, record your own hotkey and enable launch at login."}
+  ],
+  "permissions_step": "To paste with Return or the number keys, grant Accessibility access in System Settings > Privacy & Security > Accessibility when macOS asks the first time you paste.",
+  "faq": [
+    {"q": "Is AppGroupedClips really free and open source?", "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or paid tiers. If you find it useful, there is an optional Support button in the app."},
+    {"q": "What permissions does it need?", "a": "Only Accessibility, and only so it can send a Command-V key event to paste into the previous app. Without it, the clip is still copied to your clipboard and a notice explains how to enable the permission."},
+    {"q": "Where is my data stored?", "a": "Locally on your Mac. History is a JSON file in ~/Library/Application Support/AppGroupedClips, with images saved as separate files. Nothing is sent anywhere, and the app has no analytics or network code."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."}
+  ]
+}
